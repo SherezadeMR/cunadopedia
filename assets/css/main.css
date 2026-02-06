@@ -2483,11 +2483,15 @@ input, select, textarea {
 	}
 
 /* Icon */
+	.fixicon{
+		color: #b74e91;
+	}
 
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+
 	}
 
 		.icon:before {
@@ -2499,7 +2503,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -2516,13 +2520,13 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 		.icon.major {
 			width: 2.5em;
 			height: 2.5em;
-			display: block;
+			display: block; 
 			background: #ffffff;
 			border-radius: 100%;
 			color: #312450;
